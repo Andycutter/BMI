@@ -1,5 +1,5 @@
 describe("BMICalculator", function(){
-    var bmi_calculaator;
+    var bmi_calculator;
     var person;
 
     beforeEach(function() {
