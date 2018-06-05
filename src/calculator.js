@@ -1,3 +1,6 @@
+function BMICalculator(){
+};
+
 BMICalculator.prototype.metric_bmi = function(obj){
     var weight = obj.weight;
     var height = obj.height;
@@ -5,7 +8,7 @@ BMICalculator.prototype.metric_bmi = function(obj){
         var finalBMI = weight / (height * height / 10000);
         obj.bmiValue = parseFloat(finalBMI.toFixed(2));
         setBMIMessage(obj);
-    }
+    }  
 };
 function setBMIMessage (obj){
     if (obj.bmiValue < 18.5) {
