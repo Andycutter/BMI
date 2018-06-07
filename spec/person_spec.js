@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const { Person, BMICalculator } = require('./spec.helper')
 
-describe("Person",() => {
+describe("Person", () => {
     let person = new Person({
         weight: 90,
         height: 186
