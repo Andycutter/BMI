@@ -32,8 +32,8 @@
                         event.preventDefault();
                         calculateBMI()
                             .then(person => {
-                                global.displayValueElement.innerHTML = 'Your BMI is ${person.bmiValue}';
-                                global.displayMessageElement.innerHTML = 'and you are ${person.bmiMessage}';
+                                global.displayValueElement.innerHTML = `Your BMI is ${person.bmiValue}`;
+                                global.displayMessageElement.innerHTML = `and you are ${person.bmiMessage}`;
                             })
                     })
                 });
